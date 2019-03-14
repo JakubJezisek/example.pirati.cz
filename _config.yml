@@ -113,6 +113,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - vendor/bundle/
 
 permalink: /aktuality/:title.html
 collections:

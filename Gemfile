@@ -8,8 +8,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.7.3"
-
+#gem "jekyll", "~> 3.7.3"
+gem "jekyll", "~> 3.8.5"
 
 # Používá společné thema to je stále ve vývoji tj změny mužou být velké a je třeba důkladně testovat jestli se věci nerozbíjejí.
 # Comment this line for local development.
@@ -49,3 +49,5 @@ gem "wdm", "~> 0.1.1" if Gem.win_platform?
 group :development, :test do
   gem "html-proofer"
 end
+
+gem "mini_racer"
